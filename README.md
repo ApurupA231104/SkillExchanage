@@ -1,2 +1,2 @@
-# SE-Projec
+# SE-Project
 Skill-Exchange
