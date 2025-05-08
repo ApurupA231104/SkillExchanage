@@ -15,7 +15,7 @@ MongoDB: Local instance or MongoDB Atlas (Install)
 Git: For cloning the repository (Download)
 Browser: Chrome, Firefox, or Edge for the frontend
 
-Setup Steps
+# Setup Steps
 
 Clone the Repository:
 git clone https://github.com/username/SkillSync.git
@@ -45,13 +45,13 @@ JWT_SECRET=your_jwt_secret_here
 Replace MONGODB_URI with your Atlas connection string if using Atlas.
 Use a secure JWT_SECRET (e.g., a random 32-character string).
 
-# Run the Backend:
+Run the Backend:
 cd src/server
 npm start
 
-# The server will run at http://localhost:3000.
+The server will run at http://localhost:3000.
 
-# Run the Frontend:
+Run the Frontend:
 Use a static server for the client:cd src/client
 npx http-server
 
@@ -71,7 +71,7 @@ CORS Issues: Use http-server instead of opening index.html directly.
 JWT Errors: Verify JWT_SECRET matches in .env and is secure.
 Port Conflicts: Change PORT in .env if 3000 is in use.
 
-# Demo Video
+Demo Video
 Watch our application running locally with a detailed code walkthrough:Demo VideoThis video demonstrates:
 
 Setting up the project (cloning, installing, running).
@@ -82,12 +82,11 @@ Note: Replace the URL with the actual Google Drive or YouTube link after uploadi
 Documentation
 The following documents are included in the docs/ directory:
 
-Problem Statement: Outlines the need for a skill exchange platform and project goals.
+# Problem Statement: Outlines the need for a skill exchange platform and project goals.
 Software Requirements Specification (SRS): Details functional and non-functional requirements, including user authentication and profile matching.
 Software Design Document (SDD): Describes the MVC architecture, REST APIs, and MongoDB schema.
 
-Additional Notes for Evaluators
-
+# Additional Notes for Evaluators
 Code Quality: We adhered to ESLint standards for JavaScript and modularized code using the MVC pattern. Comments in script.js and server.js explain key logic.
 Testing: Unit tests for backend APIs are in src/server/tests/. Frontend testing was manual due to time constraints.
 Challenges Overcome:
