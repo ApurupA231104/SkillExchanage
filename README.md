@@ -100,5 +100,7 @@ Enhance matching with machine learning for better recommendations.
 
 Why SkillSync Stands Out: Our platform empowers collaborative learning by connecting diverse users, with a scalable backend and intuitive UI.
 
+Presntation and Demo videos : https://www.youtube.com/watch?v=X2aDUjqc2qA&list=PLNqgcZy6N9XtkyPqnOZItozDwCLgldpGP
+
 # Thank you for evaluating SkillSync! #
 
